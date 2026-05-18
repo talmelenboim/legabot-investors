@@ -1,0 +1,48 @@
+{
+  "status": "success",
+  "results": [
+    {
+      "status": "success",
+      "path": "https://mgx-backend-cdn.metadl.com/generate/images/1120941/2026-05-18/ozsbqbyaagpa/hero-stadium-ai-football.png",
+      "absolute_path": "https://mgx-backend-cdn.metadl.com/generate/images/1120941/2026-05-18/ozsbqbyaagpa/hero-stadium-ai-football.png",
+      "url": "https://mgx-backend-cdn.metadl.com/generate/images/1120941/2026-05-18/ozsbqbyaagpa/hero-stadium-ai-football.png",
+      "message": "Image generated successfully.\n\nNote: The image is on CDN and will be displayed automatically. Just describe what you created briefly, no need to mention filenames or URLs.",
+      "description": "Futuristic AI football stadium at night with purple neon lights, holographic displays showing match data, dark atmosphere with violet/purple glowing accents, aerial view of a modern stadium with AI-powered elements, digital particles and data streams flowing around the field",
+      "style": "photorealistic",
+      "filename": "hero-stadium-ai-football.jpg"
+    },
+    {
+      "status": "success",
+      "path": "https://mgx-backend-cdn.metadl.com/generate/images/1120941/2026-05-18/ozsbppqaagnq/ai-orchestration-network.png",
+      "absolute_path": "https://mgx-backend-cdn.metadl.com/generate/images/1120941/2026-05-18/ozsbppqaagnq/ai-orchestration-network.png",
+      "url": "https://mgx-backend-cdn.metadl.com/generate/images/1120941/2026-05-18/ozsbppqaagnq/ai-orchestration-network.png",
+      "message": "Image generated successfully.\n\nNote: The image is on CDN and will be displayed automatically. Just describe what you created briefly, no need to mention filenames or URLs.",
+      "description": "Abstract AI neural network visualization with interconnected nodes forming a football/soccer formation pattern, dark background with glowing purple (#635cff) connection lines and nodes, representing AI orchestration engine for autonomous football decisions",
+      "style": "photorealistic",
+      "filename": "ai-orchestration-network.jpg"
+    },
+    {
+      "status": "success",
+      "path": "https://mgx-backend-cdn.metadl.com/generate/images/1120941/2026-05-18/ozsbpmaaagpq/digital-player-ai-dna.png",
+      "absolute_path": "https://mgx-backend-cdn.metadl.com/generate/images/1120941/2026-05-18/ozsbpmaaagpq/digital-player-ai-dna.png",
+      "url": "https://mgx-backend-cdn.metadl.com/generate/images/1120941/2026-05-18/ozsbpmaaagpq/digital-player-ai-dna.png",
+      "message": "Image generated successfully.\n\nNote: The image is on CDN and will be displayed automatically. Just describe what you created briefly, no need to mention filenames or URLs.",
+      "description": "Digital football player silhouette made of glowing purple data streams and code fragments, showing AI personality traits and stats floating around the figure, dark background with violet accent lighting, futuristic sports technology concept",
+      "style": "photorealistic",
+      "filename": "digital-player-ai-dna.jpg"
+    },
+    {
+      "status": "success",
+      "path": "https://mgx-backend-cdn.metadl.com/generate/images/1120941/2026-05-18/ozsbtdyaagoq/global-network-map.png",
+      "absolute_path": "https://mgx-backend-cdn.metadl.com/generate/images/1120941/2026-05-18/ozsbtdyaagoq/global-network-map.png",
+      "url": "https://mgx-backend-cdn.metadl.com/generate/images/1120941/2026-05-18/ozsbtdyaagoq/global-network-map.png",
+      "message": "Image generated successfully.\n\nNote: The image is on CDN and will be displayed automatically. Just describe what you created briefly, no need to mention filenames or URLs.",
+      "description": "Dark world map with glowing purple connection points and network lines showing global reach, major cities highlighted with violet dots, data flowing between continents, representing global sports entertainment network coverage, dark navy/black background",
+      "style": "photorealistic",
+      "filename": "global-network-map.jpg"
+    }
+  ],
+  "success_count": 4,
+  "failed_count": 0,
+  "message": "Generated 4/4 images"
+}

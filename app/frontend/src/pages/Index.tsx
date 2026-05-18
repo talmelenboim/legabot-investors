@@ -1,0 +1,137 @@
+import { useEffect } from "react";
+import HeroSection from "@/components/HeroSection";
+import ThesisSection from "@/components/ThesisSection";
+import LeagueSection from "@/components/LeagueSection";
+import CoreEngineSection from "@/components/CoreEngineSection";
+import DigitalPlayersSection from "@/components/DigitalPlayersSection";
+import ContentEngineSection from "@/components/ContentEngineSection";
+import GlobalScaleSection from "@/components/GlobalScaleSection";
+import MonetizationSection from "@/components/MonetizationSection";
+import RoadmapSection from "@/components/RoadmapSection";
+import FooterSection from "@/components/FooterSection";
+
+const Stickysocials = () => (
+  <div className="fixed right-4 top-1/2 -translate-y-1/2 z-50 flex flex-col gap-3">
+    <a
+      href="https://x.com/legabotai"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="w-10 h-10 rounded-full bg-[#232323]/80 backdrop-blur-sm border border-[#635cff]/30 flex items-center justify-center text-[#ebebed] hover:text-[#635cff] hover:border-[#635cff] transition-all duration-300 hover:scale-110 text-sm"
+      title="X"
+    >
+      𝕏
+    </a>
+    <a
+      href="https://www.instagram.com/legabot/"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="w-10 h-10 rounded-full bg-[#232323]/80 backdrop-blur-sm border border-[#635cff]/30 flex items-center justify-center text-[#ebebed] hover:text-[#635cff] hover:border-[#635cff] transition-all duration-300 hover:scale-110 text-sm"
+      title="Instagram"
+    >
+      <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/></svg>
+    </a>
+    <a
+      href="https://www.tiktok.com/@legabot"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="w-10 h-10 rounded-full bg-[#232323]/80 backdrop-blur-sm border border-[#635cff]/30 flex items-center justify-center text-[#ebebed] hover:text-[#635cff] hover:border-[#635cff] transition-all duration-300 hover:scale-110 text-sm"
+      title="TikTok"
+    >
+      ♪
+    </a>
+    <a
+      href="https://www.youtube.com/@legabotai"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="w-10 h-10 rounded-full bg-[#232323]/80 backdrop-blur-sm border border-[#635cff]/30 flex items-center justify-center text-[#ebebed] hover:text-[#635cff] hover:border-[#635cff] transition-all duration-300 hover:scale-110 text-sm"
+      title="YouTube"
+    >
+      ▶
+    </a>
+  </div>
+);
+
+const DemoVideoSection = () => (
+  <section className="py-20 md:py-28 px-6 relative">
+    <div className="section-divider max-w-4xl mx-auto mb-16" />
+    <div className="max-w-5xl mx-auto">
+      <div className="text-center mb-10 reveal">
+        <p className="text-violet font-semibold text-sm uppercase tracking-widest mb-4">
+          See It In Action
+        </p>
+        <h2 className="text-3xl md:text-4xl lg:text-5xl font-black uppercase leading-tight">
+          <span className="text-gradient-violet">DEMO</span> VIDEO
+        </h2>
+      </div>
+      <div className="reveal-scale">
+        <div className="relative rounded-2xl overflow-hidden border border-[#635cff]/20 shadow-2xl shadow-[#635cff]/10">
+          <iframe
+            className="w-full aspect-video"
+            src="https://www.youtube.com/embed/U8QkopOr4H4"
+            title="LegaBot Demo"
+            frameBorder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowFullScreen
+            loading="lazy"
+          />
+        </div>
+      </div>
+    </div>
+  </section>
+);
+
+const Index = () => {
+  useEffect(() => {
+    const revealSelectors = ".reveal, .reveal-left, .reveal-right, .reveal-scale, .stagger-children";
+    const allElements = document.querySelectorAll(revealSelectors);
+
+    // Show elements within 2x viewport immediately, hide others for scroll reveal
+    allElements.forEach((el) => {
+      const rect = el.getBoundingClientRect();
+      if (rect.top < window.innerHeight * 2) {
+        el.classList.add("visible");
+      } else {
+        el.classList.add("hidden-initial");
+      }
+    });
+
+    const observer = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            entry.target.classList.remove("hidden-initial");
+            entry.target.classList.add("visible");
+          }
+        });
+      },
+      { threshold: 0.05, rootMargin: "100px 0px 0px 0px" }
+    );
+
+    allElements.forEach((el) => {
+      if (!el.classList.contains("visible")) {
+        observer.observe(el);
+      }
+    });
+
+    return () => observer.disconnect();
+  }, []);
+
+  return (
+    <div className="min-h-screen bg-[#232323] overflow-x-hidden font-poppins">
+      <Stickysocials />
+      <HeroSection />
+      <DemoVideoSection />
+      <ThesisSection />
+      <LeagueSection />
+      <CoreEngineSection />
+      <DigitalPlayersSection />
+      <ContentEngineSection />
+      <GlobalScaleSection />
+      <MonetizationSection />
+      <RoadmapSection />
+      <FooterSection />
+    </div>
+  );
+};
+
+export default Index;
