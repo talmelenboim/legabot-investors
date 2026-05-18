@@ -32,13 +32,13 @@ const FooterSection = () => {
           {/* CTA Buttons */}
           <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12">
             <a
-              href="mailto:hello@liga.bot"
+              href="mailto:hello@lega.bot"
               className="px-8 py-4 gradient-violet text-white font-semibold rounded-lg transition-all duration-300 hover:scale-105 shadow-lg shadow-[#635cff]/30 hover:shadow-[#635cff]/50 animate-glow"
             >
               Contact for Investment
             </a>
             <a
-              href="mailto:hello@liga.bot"
+              href="mailto:hello@lega.bot"
               className="px-8 py-4 border border-[#635cff]/50 text-white font-semibold rounded-lg hover:bg-[#635cff]/10 hover:border-[#635cff] transition-all duration-300 hover:scale-105"
             >
               Partnership Inquiries

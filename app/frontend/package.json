@@ -1,5 +1,5 @@
 {
-  "name": "shadcnui",
+  "name": "legabot-investors",
   "type": "module",
   "scripts": {
     "dev": "vite",
