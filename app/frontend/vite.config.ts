@@ -17,11 +17,13 @@ function escapeHtmlAttr(str: string): string {
     .replace(/'/g, '&#39;');
 }
 
-process.env.VITE_APP_TITLE ??= process.env.OVERVIEW_TITLE ?? 'LegaBot Investor Landing Page';
-process.env.VITE_APP_DESCRIPTION ??= process.env.OVERVIEW_DESCRIPTION ?? 'The autonomous football universe investor landing page.';
+process.env.VITE_APP_TITLE ??= process.env.OVERVIEW_TITLE ?? 'Lega.bot | AI-Native Football Universe for Global Fans';
+process.env.VITE_APP_DESCRIPTION ??=
+  process.env.OVERVIEW_DESCRIPTION ??
+  'Lega.bot is an AI-native football universe where clubs, players, leagues, media, transfers, commentary, and fan culture are powered by intelligent agents.';
 process.env.VITE_APP_TITLE = escapeHtmlAttr(process.env.VITE_APP_TITLE);
 process.env.VITE_APP_DESCRIPTION = escapeHtmlAttr(process.env.VITE_APP_DESCRIPTION);
-process.env.VITE_APP_LOGO_URL ??= process.env.OVERVIEW_LOGO_URL ?? '/assets/logo-violet.png';
+process.env.VITE_APP_LOGO_URL ??= process.env.OVERVIEW_LOGO_URL ?? '/assets/logos/primary-logo-violet.svg';
 
 // https://vitejs.dev/config/
 export default defineConfig(({ command }) => {
