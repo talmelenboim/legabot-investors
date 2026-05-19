@@ -4,8 +4,12 @@ import { QueryClient, QueryClientProvider } from '@tanstack/react-query';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import BlogRoutes from './blog-routes';
 import Index from './pages/Index';
+import CookiePolicy from './pages/CookiePolicy';
 import AuthCallback from './pages/AuthCallback';
 import AuthError from './pages/AuthError';
+import AccessibilityWidget from './components/AccessibilityWidget';
+import CookieConsent from './components/CookieConsent';
+import GoogleAnalytics from './components/GoogleAnalytics';
 // MODULE_IMPORTS_START
 // MODULE_IMPORTS_END
 
@@ -14,6 +18,7 @@ const queryClient = new QueryClient();
 const AppRoutes = () => (
   <Routes>
     <Route path="/" element={<Index />} />
+    <Route path="/cookie-policy" element={<CookiePolicy />} />
     {/* <Route path="/blog/*" element={<BlogRoutes />} /> */}
     <Route path="/auth/callback" element={<AuthCallback />} />
     <Route path="/auth/error" element={<AuthError />} />
@@ -30,6 +35,9 @@ const App = () => (
       <Toaster />
       <BrowserRouter>
         <AppRoutes />
+        <AccessibilityWidget />
+        <CookieConsent />
+        <GoogleAnalytics />
       </BrowserRouter>
     </TooltipProvider>
     {/* MODULE_PROVIDERS_CLOSE */}

@@ -47,6 +47,38 @@
   html {
     scroll-behavior: smooth;
   }
+
+  html.accessibility-large-text {
+    font-size: 112.5%;
+  }
+
+  html.accessibility-reduce-motion,
+  html.accessibility-reduce-motion * {
+    scroll-behavior: auto !important;
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+  }
+
+  html.accessibility-underline-links a {
+    text-decoration: underline;
+    text-underline-offset: 0.18em;
+  }
+
+  html.accessibility-high-contrast body {
+    background: #000000;
+    color: #ffffff;
+  }
+
+  html.accessibility-high-contrast a,
+  html.accessibility-high-contrast button {
+    outline-color: #ffffff;
+  }
+
+  html.accessibility-high-contrast img,
+  html.accessibility-high-contrast video {
+    filter: contrast(1.15) saturate(0.9);
+  }
 }
 
 @layer utilities {
