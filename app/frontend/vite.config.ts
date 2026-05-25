@@ -40,7 +40,7 @@ export default defineConfig(({ command }) => {
         hostname: 'https://hello.lega.bot',
         lastmod: getSitemapLastmod(),
         readable: true,
-        generateRobotsTxt: true,
+        generateRobotsTxt: false,
       }),
       ...(blogPrerenderRoutes.length > 0
         ? vitePrerenderPlugin({
