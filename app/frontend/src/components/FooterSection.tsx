@@ -124,6 +124,20 @@ const FooterSection = () => {
           >
             Cookie Policy
           </a>
+          <a
+            href="https://hello.lega.bot/"
+            className="text-[#a3a3a3] text-sm hover:text-[#635cff] transition-colors duration-300"
+          >
+            Investors
+          </a>
+          <a
+            href="https://pro.lega.bot/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-[#a3a3a3] text-sm hover:text-[#635cff] transition-colors duration-300"
+          >
+            Partnerships
+          </a>
         </div>
 
         {/* Footer bottom */}
