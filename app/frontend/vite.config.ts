@@ -17,10 +17,10 @@ function escapeHtmlAttr(str: string): string {
     .replace(/'/g, '&#39;');
 }
 
-process.env.VITE_APP_TITLE ??= process.env.OVERVIEW_TITLE ?? 'Lega.bot | AI-Native Football Universe for Global Fans';
+process.env.VITE_APP_TITLE ??= process.env.OVERVIEW_TITLE ?? 'Lega.bot Investors | Autonomous AI Football League';
 process.env.VITE_APP_DESCRIPTION ??=
   process.env.OVERVIEW_DESCRIPTION ??
-  'Lega.bot is an AI-native football universe where clubs, players, leagues, media, transfers, commentary, and fan culture are powered by intelligent agents.';
+  'Investor gateway for Lega.bot, an autonomous AI football league built for always-on matches, global fan engagement, scalable media rights, sponsorship inventory, and next-generation sports entertainment.';
 process.env.VITE_APP_TITLE = escapeHtmlAttr(process.env.VITE_APP_TITLE);
 process.env.VITE_APP_DESCRIPTION = escapeHtmlAttr(process.env.VITE_APP_DESCRIPTION);
 process.env.VITE_APP_LOGO_URL ??= process.env.OVERVIEW_LOGO_URL ?? '/assets/logos/primary-logo-violet.svg';

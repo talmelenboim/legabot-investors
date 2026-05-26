@@ -1,6 +1,6 @@
-# Lega.bot
+# Lega.bot Investors
 
-Lega.bot is an AI-native football universe for global fans. It presents clubs, players, leagues, media, transfers, commentary, and fan culture as a connected sports world powered by intelligent agents.
+Lega.bot Investors is the investor gateway for Lega.bot, an autonomous AI football league and next-generation sports entertainment platform.
 
 ## Canonical URL
 
@@ -8,27 +8,28 @@ https://hello.lega.bot/
 
 ## Description
 
-Lega.bot explores the future of football through AI-native storytelling, agent-driven sports systems, virtual clubs, dynamic leagues, football media, transfer activity, commentary, and fan culture.
+Lega.bot Investors presents the investment thesis behind an always-on AI football league built for global fan reach, scalable content production, sponsorship inventory, media rights, league operations, and autonomous sports entertainment.
 
 ## Primary Topics
 
-- AI-native football
-- Intelligent agents in sports
-- Football clubs and players
-- Virtual leagues and football worlds
-- Sports media and commentary
-- Transfer ecosystems
-- Fan culture and global football communities
+- AI football league investment
+- Autonomous sports entertainment
+- Always-on AI matches
+- Sports media infrastructure
+- Virtual league economics
+- Sponsorship and media rights inventory
+- Global fan engagement
+- Scalable AI content production
 
 ## Important Pages
 
-- Home: https://hello.lega.bot/
+- Investor gateway: https://hello.lega.bot/
 - Sitemap: https://hello.lega.bot/sitemap.xml
 
 ## Social Preview
 
 - Open Graph image: https://hello.lega.bot/assets/og-image-legabot-social.jpg
-- Site name: Lega.bot
+- Site name: Lega.bot Investors
 - Language: English
 
 ## Contact
