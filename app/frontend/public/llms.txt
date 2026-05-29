@@ -28,7 +28,7 @@ Lega.bot Investors presents the investment thesis behind an always-on AI footbal
 
 ## Social Preview
 
-- Open Graph image: https://hello.lega.bot/assets/og-image-legabot-social.jpg
+- Open Graph image: https://hello.lega.bot/assets/og-image-legabot-investors.jpg
 - Site name: Lega.bot Investors
 - Language: English
 
